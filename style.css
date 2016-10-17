@@ -1,16 +1,35 @@
-@media screen and (min-width: 480px) {
 	body {
-		/*
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-*/
+		display: flex;
+		flex-direction: column;
+		text-align: center;
 	}
+
 	img {
-		/*	flex: none;*/
+		margin: 1px;
 	}
+
+	#header {
+		flex-shrink: 1;
+		width: 100vw;
+	}
+
+	#subheader {
+		width: 100vw;
+	}
+#sh1 #sh2{
+	flex-shrink: 2;
 }
 
-@media screen and (max-width: 720px) {}
+	#main {
+		width: 100vw;
+	}
 
-@media screen and (min-width: 1280px) {}
+	#footer {
+		width: 100vw;
+	}
+
+	@media screen and (min-width: 480px) {}
+
+	@media screen and (max-width: 720px) {}
+
+	@media screen and (min-width: 1280px) {}
