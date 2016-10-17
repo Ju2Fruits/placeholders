@@ -1,0 +1,28 @@
+@media screen and (min-width: 480px) {
+	body {
+/*
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+*/
+}
+
+img {
+/*	flex: none;*/
+}
+
+/*
+.1 {
+	display: flex;
+	flex-direction: column;
+}*/
+
+}
+
+@media screen and (max-width: 720px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
